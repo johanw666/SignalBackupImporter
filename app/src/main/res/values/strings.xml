@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Signal Backup Importer</string>
+    <string name="backup_explaination">This application restores a backup made by the JW fork of Signal for a fresh installation on a new device. Titanium Backup will not do it after version 4.16.0 on Android 6 or hihger because the database encryption key is stored in a location inaccessible to Titanium Backup.\n\n
+        Please restore the SignalExport and SignalSecrets directories on the internal storage before running this program.\n\n
+        Install this application before Signal, restore the backup and install Signal on top of it. Do not deinstall this application first.\n\n
+        If you get signature errors with the original Signal app, please use Lucky Patcher or the Xposed module Xinstaller to allow installing applications with a different signature.\n\n
+        Software created by Johan Wevers (johanw@xs4all.nl).\n
+        http://www.xs4all.nl/~johanw/index.html</string>
+    <string name="title_import">Import Backup</string>
+    <string name="title_export">Export Backup</string>
+    <string name="importing">Importing Backup...</string>
+    <string name="exporting">Exporting Backup...</string>
+    <string name="importing_complete">Import backup complete</string>
+    <string name="exporting_complete">Export backup complete</string>
+    <string name="no_external_storage">Signal Backup Importer does not have access to the internal SD card. Please adjust the permissions in Settings - Permissions..</string>
+    <string name="import_io_exception">General IO exception when importing backup.</string>
+    <string name="export_io_exception">General IO exception when exporting backup.</string>
+    <string name="no_backup_found">No encrypted backup found</string>
+
+    <!-- String copied from Signal -->
+    <!-- Import -->
+    <string name="ImportFragment_restore_encrypted_backup">Restore encrypted backup?</string>
+    <string name="ImportFragment_restoring_an_encrypted_backup_will_completely_replace_your_existing_keys">
+        Restoring an encrypted backup will completely replace your existing keys, preferences, and
+        messages. You will lose any information that\'s in your current Signal install but not
+        in the backup.
+    </string>
+    <string name="ImportFragment_cancel">Cancel</string>
+    <string name="ImportFragment_error_importing_backup">Error importing backup!</string>
+    <string name="ImportFragment_restore">Restore</string>
+    <string name="ImportFragment_restoring">Restoring</string>
+    <string name="ImportFragment_restoring_encrypted_backup">Restoring encrypted backup...</string>
+    <string name="ImportFragment_no_encrypted_backup_found">No encrypted backup found!</string>
+    <string name="ImportFragment_restore_complete">Restore complete!</string>
+    <!-- Export -->
+    <string name="ExportFragment_export_to_sd_card">Export To SD Card?</string>
+    <string name="ExportFragment_this_will_export_your_encrypted_keys_settings_and_messages">This will export your encrypted keys, settings, and messages to the SD card.</string>
+    <string name="ExportFragment_exporting_keys_settings_and_messages">Exporting encrypted keys, settings, and messages...</string>
+    <string name="ExportFragment_export">Export</string>
+    <string name="ExportFragment_cancel">Cancel</string>
+    <string name="ExportFragment_exporting">Exporting</string>
+    <string name="ExportFragment_error_unable_to_write_to_storage">Error, unable to write to storage.</string>
+    <string name="ExportFragment_error_while_writing_to_storage">Error while writing to storage.</string>
+    <string name="ExportFragment_export_successful">Export successful.</string>
+</resources>
